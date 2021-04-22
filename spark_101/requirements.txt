@@ -1,5 +1,7 @@
-pyspark
-pandas
-kaggle
+virtualenv
 ipython
-ipykernel
+nbconvert
+numpy
+pandas
+jedi==0.18.*
+jep==3.9.*
