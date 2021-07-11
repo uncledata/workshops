@@ -1,0 +1,17 @@
+version: "3.8"
+services:
+  db :
+    build: ./postgres/
+    ports: 
+      - 5432:5432
+  python:
+    build: ./python/
+    ports: 
+      - 8001:8001
+    volumes:
+      - ./.dbt/profiles.yml:/root/.dbt/profiles.yml
+    depends_on:
+      - db
+    links: 
+        - "db:database"
+  

@@ -1,0 +1,24 @@
+version: 2
+
+sources:
+
+    - name: ops_db
+      description: "fake operational db"
+      database: db
+      schema: operational_db
+      tables:
+        - name: mock_users_data
+          description: "mocked users data"
+          columns:
+            - name: id
+              description: "Unique identifier of row"
+            - name: first_name
+              description: "fake first name"
+            - name: last_name
+              description: "fake last name"
+            - name: gender
+              description: "fake gender"                    
+            - name: ip_address
+              description: "fake ip address"
+            - name: created_at
+              description: "date when fake user was created"

@@ -1,0 +1,22 @@
+version: 2
+
+models:
+    - name: mock_users
+      meta:
+        owner: "Tomas Peluritis"
+      description:  "Incremental load of mocked users"
+      columns:
+            - name: id
+              description: "Unique identifier of row"
+            - name: first_name
+              description: "fake first name"
+            - name: last_name
+              description: "fake last name"
+            - name: gender
+              description: "fake gender"                    
+            - name: ip_address
+              description: "fake ip address"
+            - name: created_at
+              description: "date when fake user was created"
+         
+        
