@@ -1,0 +1,4 @@
+.devcontainer
+tomas_dwh/target
+tomas_dwh/logs
+.DS_Store
