@@ -1,2 +1,6 @@
 airflow-local-docker/logs/
 logs/
+.idea
+airflow/airflow.cfg
+airflow/webserver_config.py
+airflow/airflow-webserver.pid
