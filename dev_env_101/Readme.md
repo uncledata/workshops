@@ -10,6 +10,8 @@ To avoid this for the future I decided to create initial combination of what's u
 
 # Notes
 
+Airflow webserver runs on port 8181!
+
 I'm lazy and everywhere I've used *airflow:airflow* combination as username and password. Playing around locally won't hurt if afterwards anyway I'm going to turn off my playground. Database is reachable in local network on *192.168.1.3:5432*
 
 Added dbt_profiles_example_postgres.yml file as a reminder how it should look like. 
