@@ -3,8 +3,6 @@ USER root
 WORKDIR /opt
 RUN apt-get update && apt-get install git gcc libpq-dev build-essential -y
 
-RUN chown airflow /opt/airflow/logs
-
 USER airflow
 COPY requirements.txt requirements.txt
 RUN python -m pip install --upgrade pip
