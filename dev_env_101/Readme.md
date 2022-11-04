@@ -29,5 +29,5 @@ Never tried to play around with networks before. This was my approach (stiched s
 # Run
 
 ```bash
-sudo docker-compose build && sudo docker-compose pull && sudo docker-compose up
+docker-compose build && docker-compose pull && docker-compose up
 ```
