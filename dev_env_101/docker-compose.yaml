@@ -38,7 +38,7 @@ services:
       - postgres
       - scheduler
     ports:
-      - "8888:8080"
+      - "8181:8080"
     volumes:
       - ./dags:/opt/airflow/dags
       - ./airflow-local-docker/logs:/opt/airflow/logs
